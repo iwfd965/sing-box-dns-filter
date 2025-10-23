@@ -2,8 +2,10 @@ import requests
 from time import sleep
 
 FILTER_URLS = [
+    ("anti-ad", "https://anti-ad.net/adguard.txt"),
+    ("OISD", "https://small.oisd.nl"),
     ("AdGuard", "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"),
-    ("OISD", "https://big.oisd.nl"),
+    ("WhiteList", "https://gist.githubusercontent.com/iwfd965/ad9d8863a63a92f89bd3bbfde1116ce5/raw/AdGuardWhitelist")
 ]
 
 all_rules = set()
